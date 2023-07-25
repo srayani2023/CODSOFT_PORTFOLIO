@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio website</title>
+        <script src="https://kit.fontawesome.com/1b3fb36380.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="CONTAINER">
+                <nav>
+                    <h1>Port<span>Folio</span></h1>
+                    <ul id="SIDEMENU">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SKILLS</a></li>
+                        <li><a href="#">PROJECTS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div class="HEADERTEXT">
+                    <h2>Hello Everyone, <br>Myself <span>Srayani Aon</span></h2>
+                    <p>B.Tech Final Year student</p>
+                </div>
+            </div>
+        </div>
+        <div id="ABOUT">
+            <div class="CONTAINER">
+                <div class="ROW">
+                    <div class="ABOUT-col-1">
+                        <img src="image/B612_20220107_223046_562.jpg" height="300" weight="300">
+                    </div>
+                    <div class="ABOUT-col-2">
+                        <h1 class="SUBTITLE">ABOUT ME</h1>
+                        <p>Greetings! I am a B.tech final year student, pursuing <span>Electronics and Communication Engineering</span>from <span>MCKV Institute of Engineering</span>. 
+                           I have completed Diploma in <span>Electronics and Telecommunication Engineering </span>from <span>Technique Polytechnic Institute</span>and graduated in 2021.
+                            I am a curious, adaptable as an active learner an attentive listener type of person.I have a huge interest in Web Development domain.
+                           I have some basic knowledge in some programming language like <span>JAVA, PYTHON, HTML, CSS</span></p>       
+                           <div class="TABTITLE">
+                                <p class="tab-link" onclick="opentab('skills')">SKILLS</p>
+                                <p class="tab-link" onclick="opentab('experience')">EXPERIENCE</p>
+                                <p class="tab-link" onclick="opentab('projects')">PROJECTS</p>
+                                <p class="tab-link" onclick="opentab('education')">EDUCATION</p>
+                           </div>
+                           <div class="tab-contents active-link" id="skills">
+                            <ul>
+                                <li>PROGRAMMING LANGUAGES<span><br>JAVA,PYTHON</span></li>
+                                <li>WEB DEVELOPMENT<span><br>HTML, CSS, JAVASCRIPT</span></li>
+                                <li>SOFT SKILLS<span><br>Team Worker, Leadership Qualiy, Punctual</span></li>
+                                <li>COMMUNICATION SKILLS<span><br>English,Bengali,Hindi</span></li>
+                            </ul>
+                           </div>
+                           <div class="tab-contents active-link" id="experience">
+                            <ul>
+                                <li>Web Development at <span>Code Alpha</span><br>1st May,2023-31st May,2023</li>
+                                <li>Vocational Training on Solar PV installation <span>SLIEM,Kolkata</span><br>November 2020- December 2020</li>
+                                <li>Training on Embdedded system and IOT <span>Jadavpur University</span><br>July 2023- August 2023</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents active-link" id="projects">
+                            <ul>
+                                <li>Development of Smart Cart using IOT <span>August, 2020 - July, 2021</span></li>
+                                <li>Design of an Environmental Temperature and Humidity Monitoring Circuit <span>May, 2023 - June, 2023</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents active-link" id="education">
+                            <table>
+                                <tr>
+                                    <th>CLASS</th>
+                                    <th>BOARD</th>
+                                    <th>INSTITUTE</th> 
+                                    <th>MARKS</th>
+                                </tr>
+                                <tr>
+                                    <td>B.Tech</td>
+                                    <td>Makaut University</td>
+                                    <td>MCKV Institute of Engineering</td>
+                                    <td>8.82 (CGPA upto 5th sem)</td>
+                                </tr>
+                                <tr>
+                                    <td>Diploma</td>
+                                    <td>WBSCTE</td>
+                                    <td>Technique Polytechnic Institute</td>
+                                    <td>84.6%</td>
+                                </tr>
+                                <tr>
+                                    <td>12th</td>
+                                    <td>WBCHSE</td>
+                                    <td>Konnagar Hindu Girls' High School</td>
+                                    <td>55.6%</td>
+                                </tr>
+                                <tr>
+                                    <td>10th</td>
+                                    <td>WBBSE</td>
+                                    <td>Debiswari Vidya Niketan</td>
+                                    <td>68%</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="skills">
+            <div class="container">
+                <h1 class="subtitle">My Skills</h1>
+                <div class="skillist">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development and Design</h2>
+                        <p>HTML,CSS,JAVASCRIPT</p>
+                    </div>
+                    <div>
+                        <i class="fab fa-java"></i>
+                        <i class="fab fa-python"></i>
+                        <h2>Some Programming Languages</h2>
+                        <p>JAVA, PYTHON</p>
+                    </div>
+                    <div>
+                        <i class="fab fa-microsoft"></i>
+                        <h2>Softwares</h2>
+                        <p> MS Powerpoint, MS Word, MS Excel</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">Projects</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="image/temperature converter.jpg">
+                        <div class="layer">
+                            <h3> Temperature Converter Website</h3>
+                            <p>This is my personal project to make an Online Celcius to Fahrenheit and Kelvin Calculator.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/Landing page.png">
+                        <div class="layer">
+                            <h3>Landing Page Website</h3>
+                            <p>This is my personal project to make an Online Food Landing page website.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contactleft">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p> <i class="fa-solid fa-paper-plane"></i>aonsrayani@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+91-8334074329</p>
+                        <div class="socialmediaicons">
+                            <a href="https://www.facebook.com/srayaniaon2000/"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/srayani-aon-778a9b208"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://instagram.com/srayani_aon22?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/srayani2023"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </div>
+                        <a href="image/cv.png"  download class="btn btn2">Download CV</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <span>©</span> Portfolio with <i class="fa-sharp fa-solid fa-heart-pulse"></i> by Srayani Aon</p>
+            </div>
+        </div>
+    <script>
+            var tablinks = document.getElementsByClassName("tab-link");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+    </body>
+    </html>
